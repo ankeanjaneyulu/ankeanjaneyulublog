@@ -1,0 +1,115 @@
+body.back{
+background-color:#F0FFF0;
+}
+img.anji{
+height:100px;
+width:100px;
+float:left;
+margin-top:-20px
+}
+
+h1.baseh{
+color:	#708090;
+margin-left:400px;
+font-family:Edwardian Script ITC;
+font-size:35px;
+font-weight:bold;
+}
+ul.noi{
+  list-style-type: none;
+  margin-top:42px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #222;
+}
+
+li.active {
+  background-color:	#696969;
+  margin-right:100px;
+  width:250px;
+  height:50px;
+}
+
+h2.home{
+color:grey;
+}
+
+img.proimg{
+height:400px;
+width:400px;
+margin-top:60px;
+margin-left:150px;
+border-radius:200px;
+float:left;
+}
+div.hhh{
+float:right;
+font-family:Centaur;
+margin-top:150px;
+color:#2F4F4F;
+}
+div.qot{
+font-family:Edwardian Script ITC;
+font-size:50px;
+font-weight:bold;
+margin-left:200px;
+margin-top:30px;
+float:right;
+}
+/* end home page */
+/* Start About Page */
+div.all{
+margin-left:10px;
+font-family:Times New Roman;
+}
+hr.abott{
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+div.abo{
+margin-top:30px;
+font-weight:bold;
+text-decoration:underline;
+color:	#000080;
+}
+div>h3{
+color:	#008080;
+text-indent:10px;
+}
+div>p{
+text-indent:50px;
+color:	#2F4F4F;
+}
+div.skills{
+display:block;
+line-height:0.1;
+color:#2F4F4F;
+}
+/*end about*/
+div.add{
+line-height:3;
+}
+.thanks{
+align:center;
+color:red;
+font-size:40px;
+font-family:candara;
+}

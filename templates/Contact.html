@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Page</title>
+    <link href="{% static 'MyFile.css' %}" rel="stylesheet"/>
+</head>
+<body>
+{% block body_block %}
+<div class="all">
+<div class="abo"><h1>Contact Details</h1></div>
+<hr class="abott">
+  <div class="add">  <p>&nbsp; <b>Address :</b> 1-44, Iragampalli,
+	               Anantapur,
+	               Andhra Pradesh,
+	                India, 515133.
+	</p>
+    <p >&nbsp;<b>Contact Number :</b> 8978743385</p>
+    <p >&nbsp;<b>Email :</b> ankeanjineyulu@gmail.com</p>
+</div>
+<footer>Made in India by Anke</footer>
+</div>
+{% endblock %}
+</body>
+</html>
